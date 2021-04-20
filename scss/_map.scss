@@ -1,0 +1,12 @@
+@import "variables";
+
+// scss-docs-start theme-colors-map
+$custom-colors: (
+        "white": $white,
+        "base": $base,
+        "line": $line,
+        "info": $info,
+        "txt": $txt,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+// scss-docs-end theme-colors-map
